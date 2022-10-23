@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true,
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "strict": true,
+    "allowJs": false,
+    "noUnusedLocals": true,
+    "resolveJsonModule": true,
+    "types": ["node", "jest"],
+    "paths": {
+      "@jection/*": ["packages/*/src"]
+    }
+  },
+  "exclude": ["**/*/dist/*", "config"]
+}
